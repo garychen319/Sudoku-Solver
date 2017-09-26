@@ -1,5 +1,6 @@
-AI Assignment 4: Constraint Satisfaction Problems:
-Gary Chen gc2676
+Sudoku Solver
+Constraint Satisfaction Problems
+
 
 To Run:
 Option 1: Run with command line input, <input_string> being a sudoku board sequence of 81 numbers
@@ -11,6 +12,6 @@ Outputs are written to a file called results.txt
 
 
 Observations:
--The only 3 cases solvable by AC-3 are case #1, #2, #332 in the given test cases.
+-The only 3 cases solvable by AC-3 (Arc-Constraint-3) are case #1, #2, #332 in the given test cases.
 -All cases were solvable by my program
 -Runtime: The program finishes running the given 400 sudoku inputs in under 3 minutes.
